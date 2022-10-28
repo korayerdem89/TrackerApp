@@ -14,4 +14,4 @@ useLayoutEffect(() => {
     return <Text>Manage Expense Screen</Text>;
 }
 
-export default ManageExpense;
+export default ManageExpense; 
