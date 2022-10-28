@@ -25,7 +25,7 @@ function ExpensesOverview() {
       options= {{
         title: 'Recent Express',
         tabBarLabel: 'Recent',
-        tabBarIcon: ({colors, size}) => (
+        tabBarIcon: ({color, size}) => (
           <Ionicons name = "hourglass" size={size} color={color} />
         ),  
       }}
@@ -35,7 +35,7 @@ function ExpensesOverview() {
       options= {{
         title: 'All Express',
         tabBarLabel: 'All Expenses',
-        tabBarIcon: ({colors, size}) => (
+        tabBarIcon: ({color, size}) => (
           <Ionicons name = "calendar" size={size} color={color} />
         ),  
       }}
