@@ -4,7 +4,7 @@ import { ExpensesContext } from "../store/expenses-context";
 function AllExpenses() {
   const expensesCtx = useContext(ExpensesContext);
   return (
-    <ExpensesOutput expenses={expensesCtx.expenses} expensesPeriod="Total" />
+    <ExpensesOutput expenses={expensesCtx.expenses} expensesPeriod="Total"  fallBackText="No Registered expenses found!" />
   );
 }
 
