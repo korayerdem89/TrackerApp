@@ -63,7 +63,7 @@ function ExpensesOverview() {
 export default function App() {
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="inverted" />
       <ExpensesContextProvider>
         <NavigationContainer>
           <Stack.Navigator
