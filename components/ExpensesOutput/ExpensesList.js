@@ -3,8 +3,10 @@ import ExpenseItem from './ExpenseItem';
 
 
 function renderExpenseItem(itemData) {
+  console.log({...itemData.item});
   return <ExpenseItem {...itemData.item} />;
 }
+
 
 
 
